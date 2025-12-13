@@ -1,0 +1,26 @@
+{
+  "name": "ca2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "main.js",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "vite": "^7.2.7"
+  },
+  "dependencies": {
+    "firebase": "^12.6.0"
+  }
+}
