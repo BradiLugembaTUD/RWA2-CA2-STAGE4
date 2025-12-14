@@ -1,0 +1,67 @@
+/* Page background */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #e6ecff);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main page container */
+main {
+  background: white;
+  width: fit-content;
+  margin-top: 40px;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Instructions text */
+.instructions {
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+/* Click counter */
+.click-counter {
+  text-align: center;
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #4a6cf7;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #3958d6;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
